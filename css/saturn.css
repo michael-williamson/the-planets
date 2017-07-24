@@ -1,0 +1,59 @@
+body {
+  background-image: url(../images/star-sky.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px; }
+
+header {
+  color: white; }
+  header h1 {
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    color: rgba(0, 255, 250, 0.96);
+    text-shadow: -2px 5px 9px #00e736; }
+  header .back-arrow {
+    position: absolute;
+    top: 0;
+    left: 19px;
+    font-size: 72px;
+    font-family: 'Orbitron', sans-serif; }
+    header .back-arrow a {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.18); }
+    header .back-arrow a:hover {
+      color: white; }
+
+div.planet {
+  background-image: url(../images/saturn.jpg);
+  background-size: 422px 336px;
+  background-position: 29% -9px;
+  background-repeat: no-repeat;
+  width: 391px;
+  height: 309px;
+  margin: 0 auto;
+  border-radius: 50%; }
+
+p:first-child {
+  margin-top: 33px; }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100%; } }
+
+main p {
+  color: #b3ffc5;
+  opacity: 100%;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  font-family: 'Orbitron', sans-serif;
+  padding-left: 13px;
+  background-color: rgba(0, 0, 0, 0.45); }
+  @media (min-width: 768px) {
+    main p {
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 20px; } }

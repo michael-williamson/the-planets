@@ -1,0 +1,25 @@
+header {
+ color: white; 
+ h1 {
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    color: rgba(0, 255, 250, 0.96);
+    text-shadow: -2px 5px 9px #00e736;
+ }
+ .back-arrow {  
+    position: absolute;
+    top: 0;
+    left: 19px;
+    font-size: 72px;
+    font-family: 'Orbitron', sans-serif;
+
+    a{
+        text-decoration: none; 
+        color: rgba(255, 255, 255, 0.18);
+    } 
+    a:hover{
+        color: white; 
+    } 
+}
+
+}
