@@ -1,12 +1,16 @@
 body {
-    margin: 0px; 
-    padding: 0px; 
-    font-family: sans-serif;   
-}    
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-image: url(../images/star-sky.jpg);
+  //   height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 * {
-    box-sizing: border-box;  
-}  
+  box-sizing: border-box;
+}
 
 // font-family: 'Artifika', serif;
 // font-family: 'Amatic SC', cursive;
